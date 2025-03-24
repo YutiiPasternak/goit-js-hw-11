@@ -5,7 +5,7 @@ import 'izitoast/dist/css/iziToast.min.css';
 
 const searchForm = document.querySelector('.form');
 const searchInput = document.querySelector('#search-input');
-const loader = document.querySelector('#loader');
+const loader = document.querySelector('.loader');
 const gallery = document.querySelector('.gallery');
 
 if (!searchForm || !searchInput || !loader || !gallery) {
